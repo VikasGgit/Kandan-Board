@@ -1,0 +1,40 @@
+.app {
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 23%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-card {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.task-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task-card p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+}
+
+.MuiFab-root {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
